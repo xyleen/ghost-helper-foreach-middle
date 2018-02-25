@@ -1,0 +1,23 @@
+{
+  "name": "ghost-helper-foreach-middle",
+  "version": "0.0.1",
+  "description": "Find middle element in an array - helper for templates in Ghost themes",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyleen/ghost-helper-foreach-middle.git"
+  },
+  "author": "Konrad Księski",
+  "bugs": {
+    "url": "https://github.com/xyleen/ghost-helper-foreach-middle/issues"
+  },
+  "homepage": "https://github.com/xyleen/ghost-helper-foreach-middle#readme",
+  "dependencies": {
+    "ghost-app": "0.0.3"
+  },
+  "ghost": {
+    "permissions": {
+        "helpers": ["foreach-middle"]
+    }
+  }
+}
